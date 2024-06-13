@@ -1,4 +1,4 @@
-"(n,q)",Connected,Rank(K_1),Tor(K_0),Det(I-A)<0,Full Shift,Cuntz polygon,Cuntz algebra
+"(n,q)",Connected,K_1 nonzero,Tor(K_0) cyclic,Det(I-A)<0,Full Shift,Cuntz polygon,Cuntz algebra
 "(∞,q)",m−O(1/n),m(√ (1−ε) + o(1))ⁿ,0.84694,0.50000,0.42347,0.51451,0.43576
 "(50,1/4)",99989,1,84610,49966,42225,50739,43581
 ,"[0.9998, 1.0000]","[-0.0000, 0.0000]","[0.8432, 0.8490]","[0.4956, 0.5037]","[0.4182, 0.4263]","[0.5033, 0.5115]","[0.4318, 0.4398]"
