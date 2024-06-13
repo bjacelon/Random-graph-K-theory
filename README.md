@@ -1,4 +1,4 @@
-This directory contains three Python scripts for the generation and analysis of random graphs, accompanying the paper
+This directory contains four Python scripts for the generation and analysis of random graphs, accompanying the paper
   The K-distribution of random graph C^*-algebras
     by Bhishan Jacelon, Igor Khavkine
   https://arxiv.org/abs/2307.01861
