@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python3
 
 # Copyright (c) 2023 Bhishan Jacelon, Igor Khavkine
 #
@@ -243,8 +243,14 @@ def mainoutput(n, r, P, m, alpha, nodisplay, graph_type, k=0):
             pv_mat = -np.eye(n, dtype=int)
             
             for (a,b) in g:
+
                 pv_mat[a,b] += 1
-                pv_mat[b,a] += 1 if graph_type != 1 else 0
+                
+                if a != b and graph_type != 1:
+                    
+                    pv_mat[b, a] += 1
+
+            print(pv_mat)
 
             # Convert pv_mat to pari input, then compute its smith normal form
             mat = pari.matrix(n,n, pv_mat.flatten())
