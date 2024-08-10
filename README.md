@@ -3,9 +3,9 @@ This directory contains four Python scripts for the generation and analysis of r
     by Bhishan Jacelon, Igor Khavkine
   https://arxiv.org/abs/2307.01861
 
-1. dnq.py: generates random Bernoulli digraphs D_{n,q} (or shifted digraphs D_{n,q}+I) and collects K-theoretic, automorphism orbit and determinandt data.
-2. enq.py: generates random Erdos-Renyi graphs E_{n,q} and collects K-theoretic, automorphism orbit and determinandt data.
-3. gnr.py:  generates random r-regular multigraphs G_{n,r} and collects K-theoretic, automorphism orbit and determinandt data.
+1. dnq.py: generates random Bernoulli digraphs D_{n,q} (or shifted digraphs D_{n,q}+I) and collects K-theoretic, automorphism orbit and determinant data.
+2. enq.py: generates random Erdos-Renyi graphs E_{n,q} and collects K-theoretic, automorphism orbit and determinant data.
+3. gnr.py:  generates random r-regular multigraphs G_{n,r} and collects K-theoretic, automorphism orbit and determinant data.
 4. randomgraphktheory.py: collects information about the Sylow subgroups of the K_0 groups for the three above graph models.
 
 These can be executed for example with the following options:
